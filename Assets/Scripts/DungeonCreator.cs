@@ -39,6 +39,9 @@ public class DungeonCreator : MonoBehaviour
             corridorWidth);
         GameObject wallParent = new GameObject("WallParent");
         wallParent.transform.parent = transform;
+        
+        
+        
 
         possibleDoorVerticalPosition = new List<Vector3Int>();
         possibleDoorHorizontalPosition= new List<Vector3Int>();
@@ -56,17 +59,21 @@ public class DungeonCreator : MonoBehaviour
     {
         foreach (var wallPosition in possibleWallHorizontalPosition)
         {
+            
             CreateWall(wallParent, wallPosition, wallHorizontal);
         }
         foreach (var wallPosition in possibleWallVerticalPosition)
         {
+            
             CreateWall(wallParent, wallPosition, wallVertical);
         }
     }
 
     private void CreateWall(GameObject wallParent, Vector3Int wallPosition, GameObject wallPrefab)
     {
+        
         Instantiate(wallPrefab, wallPosition, Quaternion.identity, wallParent.transform);
+        
     }
 
     private void CreateMesh(Vector2 bottomLeftCorner, Vector2 topRightCorner)
