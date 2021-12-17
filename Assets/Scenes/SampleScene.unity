@@ -241,7 +241,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 861097845}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1.2075129, y: 2.519639, z: -0.7540121}
+  m_LocalPosition: {x: -1.2075129, y: -953, z: -0.7540121}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -269,8 +269,8 @@ MonoBehaviour:
   roomBottomCornerModifier: 0.1
   roomTopCornerMidifier: 0.7
   roomOffset: 1
-  wallVertical: {fileID: 919132149155446097, guid: e6b19083eebd6154ea5dd2c04ef28a38, type: 3}
-  wallHorizontal: {fileID: 919132149155446097, guid: e6b19083eebd6154ea5dd2c04ef28a38, type: 3}
+  wallVertical: {fileID: 919132149155446097, guid: 5a0a78033a23c1c4bb695bbae92a1561, type: 3}
+  wallHorizontal: {fileID: 919132149155446097, guid: c15d888616e51a4468515347fe186ce8, type: 3}
 --- !u!1 &963194225
 GameObject:
   m_ObjectHideFlags: 0
@@ -322,7 +322,7 @@ Camera:
     height: 1
   near clip plane: 0.3
   far clip plane: 1000
-  field of view: 60
+  field of view: 115.01705
   orthographic: 0
   orthographic size: 5
   m_Depth: -1
@@ -348,7 +348,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 963194225}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 10.71, z: -10}
+  m_LocalPosition: {x: 1491, y: 849, z: -907}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
